@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,700);
+
+// Animation Setting
+// ====
+a, .btn, small {
+  transition: background-color 0.2s ease,
+              color 0.2s ease !important;
+}
+
+//
+// Style Setting
+// ====
+a {
+  color: $link-text-color;
+}
+
+body {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: $body-bg-color;
+}
+
+.nav-pills {
+  li.active {
+    & > a,
+    & > a:focus
+    & > a:hover {
+      background-color: $sidebar-nav-link-text-focus-color !important;
+    }
+  }
+}
+
+.sidebar-nav {
+  color: $sidebar-nav-text-color;
+  background-color: $sidebar-nav-bg-color !important;
+  font-size: 13px;
+
+  .dropdown-header {
+    color: fade-out($sidebar-nav-text-color, 0.5) !important;
+    font-weight: 300 !important;
+  }
+
+  a {
+    color: $sidebar-nav-link-text-color;
+    font-weight: normal !important;
+
+    &:hover {
+      color: $sidebar-nav-link-text-hover-color;
+    }
+  }
+}
+
+.navbar-nav {
+  a {
+    color: $navbar-nav-link-color !important;
+
+    &:hover {
+      color: fade-out($navbar-nav-link-color, 0.5) !important;
+    }
+  }
+}
+
+.navbar-default {
+  background-color: $navbar-bg-color !important;
+  border-width: 0 !important;
+
+  .navbar-brand {
+    color: $navbar-brand-link-color !important;
+
+    &:hover {
+      color: fade-out($navbar-brand-link-color, 0.5) !important;
+    }
+
+    small {
+      color: $navbar-brand-small-text-color !important;
+
+      &:hover {
+        color: fade-out($navbar-brand-small-text-color, 0.5) !important;
+      }
+    }
+  }
+}
+
+input {
+  outline: none;
+}
+
+input[type="search"] {
+  border-width: 0 !important;
+}
+
+.label, .control-label {
+  font-weight: 300 !important;
+}
+
+.btn-primary {
+  background-color: $btn-primany-bg-color;
+
+  &:hover {
+    background-color: fade-out($btn-primany-bg-color, 0.5);
+  }
+}
+
+.table > thead > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > th,
+.table > tfoot > tr > td {
+  line-height: 1.5em;
+  border-top: 1px solid fade-out($cell-border-color, 0.5);
+}
+
+.content {
+  padding: 1em;
+}
+
+// Reset radius
+// ====
+.btn, .well, .label {
+  border-width: 0 !important;
+  border-radius: 0 !important;
+}
+
+.nav-tabs {
+  a {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;    
+  }
+}
+
+.form-control, .progress {
+  border-radius: 0 !important; 
+}
