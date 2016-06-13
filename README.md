@@ -1,4 +1,6 @@
 
+[preview]: http://i.imgur.com/JBIUOOl.png
+
 # Use a theme
 
 In your Gemfile:
