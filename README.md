@@ -6,7 +6,7 @@
 In your Gemfile:
 
 ```ruby
-gem 'rails_admin_material_theme'
+gem 'rails_admin_material_theme', '~> 0.1.3'
 ```
 
 Inside config/application.rb, just after Bundler.require:
