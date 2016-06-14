@@ -108,12 +108,28 @@ input[type="search"] {
 .table > tbody > tr > td,
 .table > tfoot > tr > th,
 .table > tfoot > tr > td {
-  line-height: 1.5em;
-  border-top: 1px solid fade-out($cell-border-color, 0.5);
+  line-height: 2em;
+  border-top: 1px solid fade-out($cell-border-color, 0.8);
 }
 
 .content {
   padding: 1em;
+}
+
+.form-control {
+  border-color: $form-control-border-color;
+}
+
+.label-danger {
+  color: $label-danger-color;
+  font-size: 18px;
+  background-color: transparent !important;
+}
+
+.label-success {
+  color: $label-success-color;
+  font-size: 20px;
+  background-color: transparent !important;
 }
 
 // Reset radius
