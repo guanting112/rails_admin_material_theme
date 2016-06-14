@@ -1,5 +1,5 @@
 
-![preview](http://i.imgur.com/bPZrZ4k.png)
+![preview](http://i.imgur.com/5HdilVP.png)
 
 # Use a theme
 
