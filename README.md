@@ -14,3 +14,10 @@ Inside config/application.rb, just after Bundler.require:
 ```ruby
 ENV['RAILS_ADMIN_THEME'] = 'material_theme'
 ```
+
+Truncate all cache
+
+```ruby
+bundle exec rake assets:clean
+bundle exec rake tmp:clear
+```
