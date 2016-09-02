@@ -1,7 +1,16 @@
 
+Rails Admin Material Theme
+=======
+
+[![Gem Version](https://badge.fury.io/rb/rails_admin_material_theme.svg)](https://badge.fury.io/rb/rails_admin_material_theme)
+
+Preview
+--------
+
 ![preview](http://i.imgur.com/5HdilVP.png)
 
-# Use a theme
+Use a theme
+--------
 
 In your Gemfile:
 
@@ -15,7 +24,7 @@ Inside config/application.rb, just after Bundler.require:
 ENV['RAILS_ADMIN_THEME'] = 'material_theme'
 ```
 
-Truncate all cache
+clean old cache
 
 ```ruby
 bundle exec rake assets:clean
