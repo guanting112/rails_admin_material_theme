@@ -13,8 +13,9 @@ Gem::Specification.new do |s|
   s.summary     = "Material Theme for Rails Admin"
   s.description = "Material Theme for Rails Admin ( alpha version )"
   s.license     = "MIT"
+  s.required_ruby_version = '~> 2'
 
   s.files = Dir["{lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency "rails", "~> 4.2"
+  s.add_dependency "rails", ">= 4.2"
 end

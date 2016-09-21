@@ -1,5 +1,5 @@
 
-Rails Admin Material Theme
+Rails Admin Material Theme ( for Rails 4.2 / 5 )
 =======
 
 [![Gem Version](https://badge.fury.io/rb/rails_admin_material_theme.svg)](https://badge.fury.io/rb/rails_admin_material_theme)
@@ -15,7 +15,7 @@ Use a theme
 In your Gemfile:
 
 ```ruby
-gem 'rails_admin_material_theme', '~> 0.1.3'
+gem 'rails_admin_material_theme', '~> 0.2.0'
 ```
 
 Inside config/application.rb, just after Bundler.require:
